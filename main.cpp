@@ -76,7 +76,7 @@ void match(int pID, int gID){
 int main(int argc, char const *argv[])
 {   
     if (argc != 2){
-        std::cout << "Usage: ./main <filename>" << std::endl;
+        std::cout << "Usage: " << argv[0]<<" <filename>" << std::endl;
         return 1;
     }
     string filename = argv[1];
